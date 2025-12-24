@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  width: 400px;
+  height: 150px;
+  border: 3px solid #e9c46a;
+}
+
+.foodIntro {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  gap: 20px;
+}
+
+.foodIntro__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.foodIntro__namePrice {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #454851;
+}
+
+h3 {
+  color: #264653;
+  letter-spacing: 2px;
+}
+
+h4 {
+  color: #e9c46a;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 2px;
+  color: #454851;
+}
