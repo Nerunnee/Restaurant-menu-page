@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant menu page</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Our menu</h1>
+    <div class="header-container">
+      <h1>Our Menu</h1>
+      <p class="line"></p>
+    </div>
 
-    <div>
-      <button id="all-btn">All</button>
+    <div class="btn-container" id="btn-container">
+      <button id="all-btn" class="active">All</button>
       <button id="breakfast-btn">Breakfast</button>
-      <button id="lunch-btn">lunch</button>
+      <button id="lunch-btn">Lunch</button>
       <button id="shakes-btn">Shakes</button>
       <button id="dinner-btn">Dinner</button>
     </div>
 
-    <div id="menu"></div>
+    <div id="menu" class="container"></div>
 
     <script src="./script.js"></script>
   </body>
